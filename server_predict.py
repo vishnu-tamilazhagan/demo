@@ -17,6 +17,7 @@ app = Flask(__name__)
 def predict():
     # Opening JSON file
     f = open('datadomain.json')
+    print('this is vishnu')
 
     # returns JSON object as 
     # a dictionary
